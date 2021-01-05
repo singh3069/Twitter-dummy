@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(21, 32, 43);
+  color: #fff;
+  font-family: "Cantarell", sans-serif;
+}
+
+.main-div {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+/* --------------left side div---------- */
+
+.left-side-div {
+  width: 30%;
+  /* background-color: aqua; */
+  justify-content: right;
+  text-align: right;
+  padding: 0 30px 20px 25px;
+}
+
+.left-side-div .left-side-list {
+  margin-left: 200px;
+  display: flex;
+  color: #fff;
+  font-size: 23px;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* .left-side-div .left-side-list .fa-twitter{
+    padding-left: 0;
+} */
+
+.left-side-div .left-side-list:hover {
+  color: #1da1f2;
+  cursor: pointer;
+  background-color: #1da0f236;
+}
+
+/* ----------------center-div--------------- */
+
+.center-div {
+  width: 50%;
+  height: 100vh;
+  border: rgb(167, 166, 166) solid 0.1px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.center-div .home {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(167, 166, 166) solid 0.1px;
+}
+
+.center-div .home h2,
+.center-div .home i {
+  margin: 10px 0 10px 4px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.home i {
+  color: #1da1f2;
+}
+
+.center-div .whats-happening {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-bottom: 75px;
+  border-bottom: rgb(167, 166, 166) solid 0.1px;
+}
+
+.center-div .welcome-to-twitter {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.center-div .welcome-to-twitter h2 {
+  padding-bottom: 20px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* ----------right-side-div---------- */
+
+.right-side-div {
+  width: 40%;
+  /* background-color: bisque; */
+}
+
+.right-side-div .right-side-main-div {
+  padding-left: 33px;
+  padding-top: 5px;
+  width: 100%;
+}
+
+.right-side-div .right-side-main-div input {
+  width: 75%;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(38, 59, 80);
+}
+
+.right-side-div .right-side-main-div-01 {
+  padding-left: 33px;
+  padding-top: 5px;
+  width: 75%;
+}
+
+.whats-happening-01 {
+  /* display: flex; */
+  font-size: 23px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  background-color: rgb(38, 59, 80);
+  border-bottom: rgb(167, 166, 166) solid 0.1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
